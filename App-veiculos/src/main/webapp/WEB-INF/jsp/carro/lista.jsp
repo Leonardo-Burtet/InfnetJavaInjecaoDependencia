@@ -1,10 +1,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="ISO-8859-1">
-	<title>AppPedido</title>
+	<title>CarLot</title>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
@@ -20,7 +20,10 @@
 	        <th>ID</th>
 	        <th>Nome</th>
 	        <th>Valor</th>
-	        <th>C�digo</th>
+	        <th>Código</th>
+	        <th>Teto solar</th>
+	        <th>Quantidade de portas</th>
+	        <th>Quantidade de assentos</th>
 	      </tr>
 	    </thead>
 	    <tbody>
@@ -31,7 +34,6 @@
 		        <td>${c.nome}</td>
 		        <td>${c.valor}</td>
 		        <td>${c.codigo}</td>
-		        <td>${c.tetoSolar}</td>
 		        <td>${c.qtdePortas}</td>
 		        <td>${c.qtdeAssentos}</td>
 		        <td><a href="/carro/${c.id}/excluir">excluir</a> </td>
@@ -39,7 +41,6 @@
 	      </c:forEach>
 	    </tbody>
 	  </table>
-	  
 	</div>
 </body>
 </html>

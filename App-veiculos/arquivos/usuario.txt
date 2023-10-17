@@ -1,0 +1,3 @@
+admin@admin.com;Administrator;123
+leo@leo.com;LeonardoBurtet;123
+aluno@aluno.com;Aluno;123

@@ -1,0 +1,6 @@
+Chopper;10000;123;150;Custom;1;M
+Chevette;2500;333;4;5;2;C
+VanEscolar;52500;33;false;Escolar;3;V
+Ninja;15000;122;400;Esportiva;1;M
+Camaro;500000;99;4;5;8;C
+Splinter;82500;233;true;Passeio;9;V
